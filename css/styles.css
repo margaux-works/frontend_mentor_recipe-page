@@ -1,0 +1,224 @@
+:root {
+  --stone-900: #312e2c;
+  --stone-600: #5f564d;
+  --stone-150: #e3ddd7;
+  --stone-100: #f3e5d7;
+  --rose-800: #7a284e;
+  --rose-50: #fff7fb;
+  --brown-800: #854632;
+  --white: #ffffff;
+  --spacing-1600: 8rem;
+  --spacing-600: 3rem;
+  --spacing-500: 2.5rem;
+  --spacing-400: 2rem;
+  --spacing-300: 1.5rem;
+  --spacing-200: 1rem;
+  --spacing-150: 0.75rem;
+  --spacing-100: 0.5rem;
+  --spacing-50: 0.25rem;
+  --text-preset-1: 1.5rem;
+  --text-preset-2: 0.875rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font: 1rem 'Outfit', sans-serif;
+  line-height: 150%;
+  color: var(--stone-600);
+  background-color: var(--stone-100);
+  padding: var(--spacing-1600);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-100);
+}
+
+.wrapper {
+  display: flex;
+  max-width: 736px;
+  padding: var(--spacing-500);
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--spacing-500);
+  flex-shrink: 0;
+  background-color: var(--white);
+  border-radius: var(--spacing-300);
+}
+
+.recipe-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--spacing-300);
+  align-self: stretch;
+  margin-bottom: var(--spacing-400);
+}
+.recipe-title {
+  gap: var(--spacing-300);
+}
+
+h1 {
+  font-family: 'Young Serif', sans-serif;
+  font-size: 2.5rem;
+  color: var(--stone-900);
+}
+
+.recipe-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* gap: var(spacing-400); */
+  align-self: stretch;
+}
+
+.recipe-intro p {
+  color: var(--stone-600);
+}
+
+h2 {
+  color: var(--brown-800);
+  font-family: 'Young Serif', sans-serif;
+  font-size: 1.75rem;
+}
+
+.prep-time {
+  display: flex;
+  padding: var(--spacing-300);
+  gap: var(--spacing-200);
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: var(--rose-50);
+  border-radius: var(--spacing-150);
+}
+
+.prep-title {
+  color: var(--rose-800);
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 100%;
+}
+
+ul {
+  list-style: inside;
+}
+
+.prep-list {
+  line-height: 150%;
+}
+
+.prep-list span {
+  font-weight: 700;
+}
+
+.recipe-ingredients {
+  display: flex;
+  gap: var(--spacing-300);
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  line-height: 150%;
+  margin: var(--spacing-400) 0px;
+}
+
+.ingredients-list li {
+  line-height: 150%;
+  padding-left: var(--spacing-100);
+}
+
+.line {
+  border: 1px solid var(--stone-150);
+  width: 100%;
+}
+
+.recipe-instructions {
+  display: flex;
+  gap: var(--spacing-300);
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  line-height: 150%;
+  margin: var(--spacing-400) 0px;
+}
+
+.instructions-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--spacing-100);
+  align-self: stretch;
+  padding-left: var(--spacing-300);
+}
+
+.instructions-list li {
+  padding-left: var(--spacing-200);
+}
+
+.instructions-list li::marker {
+  color: var(--brown-800);
+  font-weight: 700;
+}
+
+.instructions-list span {
+  font-weight: 700;
+}
+
+.recipe-nutrition {
+  display: flex;
+  gap: var(--spacing-300);
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  line-height: 150%;
+  margin-top: var(--spacing-400);
+}
+
+table {
+  width: 100%;
+  line-height: 250%;
+}
+
+td {
+  border-bottom: 1px solid var(--stone-150);
+  padding: 0px var(--spacing-400);
+}
+
+.cell-value {
+  color: var(--brown-800);
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    display: flex;
+    width: 375px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  img {
+    width: 100%;
+    align-self: stretch;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    display: flex;
+    width: 616px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  img {
+    width: 100%;
+    align-self: stretch;
+  }
+}
