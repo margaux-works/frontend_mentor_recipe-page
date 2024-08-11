@@ -21,7 +21,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Screenshot
 
 ![Desktop](img/screenshot-desktop.png)
-![Mobile](img/screenshot-mobile.png =350x)
+![Mobile] <img src="img/screenshot-mobile.png" width=50% height=50%>
 
 ### Links
 
