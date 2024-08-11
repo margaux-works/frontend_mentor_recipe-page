@@ -21,9 +21,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Screenshot
 
 ![Desktop](img/screenshot-desktop.png)
-![Mobile](img/screenshot-mobile.png)
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![Mobile](img/screenshot-mobile.png =350x)
 
 ### Links
 
@@ -40,8 +38,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - CSS Grid
 - Mobile-first workflow
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 ### What I learned
 
 During the development of this project, I improved my understanding of responsive design and the importance of a mobile-first workflow. I used CSS custom properties to maintain a consistent design system and flexbox for the layout, which allowed me to manage the content effectively across different screen sizes.
@@ -51,8 +47,6 @@ A key challenge I overcame was ensuring that images and text adjusted seamlessly
 ### Continued development
 
 Moving forward, I aim to dive deeper into CSS Grid and explore more advanced responsive design techniques.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 
